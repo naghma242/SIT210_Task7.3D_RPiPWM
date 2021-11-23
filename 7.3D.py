@@ -42,7 +42,7 @@ try:
     while True:
         d2 = Distance()
         if (d2 > 400):
-            print("Distance is going beyond limit")
+            print("Object out of range limit")
         elif (d2 > 50):
             pwm.ChangeDutyCycle(0)
             print("Distance is :", d2, "cm")
