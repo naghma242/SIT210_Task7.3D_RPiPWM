@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BCM)
 
 trig = 3
 echo = 2
-led = 17
+led = 13
 threshold = 200
 
 GPIO.setup(led, GPIO.OUT)
