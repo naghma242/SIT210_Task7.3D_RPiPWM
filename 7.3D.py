@@ -19,7 +19,7 @@ time.sleep(2)
 
 def Distance():
     GPIO.output(trig, True)
-    time.sleep(0.0001)
+    time.sleep(0.00001)
     GPIO.output(trig, False)
 
     while (GPIO.input(echo) == 0):
